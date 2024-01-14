@@ -47,3 +47,51 @@
 // -10.5 - String
 // let myVar_4 = true + ''; console.log(myVar_4);
 // true - String
+
+
+
+// QS - 14
+
+// a)
+
+// function doSomething() {
+//     console.log(this);
+// }
+// doSomething();
+
+// window
+
+// b)
+
+// var obj = {
+//     name:"vivek",
+//     getName: function () {
+//         console.log(this.name);
+//     }}
+// obj.getName();
+// vivek
+
+
+// c)
+
+//     var obj = {
+//         name: "vivek",
+//         getName:
+//             function () { console.log(this.name); }
+//     }
+// var getName = obj.getName;
+//     var obj2 = { name: "akshay", getName };
+//     obj2.getName();
+//akshay
+
+// d)
+
+// var obj1 = {
+//     address: "Mumbai,India",
+//     getAddress: function () {
+//         console.log(this.address);
+//     }
+// }
+// var getAddress = obj1.getAddress;
+// var obj2 = { name: "akshay" };
+// obj2.getAddress();
